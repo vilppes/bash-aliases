@@ -41,3 +41,14 @@ sudo poweroff
 theseus () {
 w3m theseus.fi/discover?query=$1
 }
+
+#mount usb
+mountusb () {
+sudo mkdir /media/usb
+sudo mount /dev/sdb1 /media/usb
+}
+#unmount usb
+umountusb () {
+sudo umount /media/usb
+}
+
