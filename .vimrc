@@ -17,7 +17,7 @@ nmap åi aif(){<Return>}<Esc>
 nmap åe aelse{<Return>}<Esc>
 nmap åw awhile(){<Return>}<Esc>
 nmap åf afor(;;){<Return><Return>}<Esc>ki<Tab><Esc>
-nmap åm avoid main(){<Return>}<Esc>
+nmap åm aint main(){<Return>}<Esc>
 nmap åc :!gcc *.c<Return>
 nmap åx :echo "åi, åe, åw, åf, åm, åc, åx, åai, åae"<Return>
 nmap åai åiåe
