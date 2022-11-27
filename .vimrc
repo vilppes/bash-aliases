@@ -9,6 +9,7 @@ echo "Happy hacking!"
 
 "keybindings go here under this"
 nmap <F2> :set relativenumber<Return>:set number<Return>:set ai<Return>
+nmap <F3> wi<Return><Esc>
 nmap j gj
 nmap k gk
 
