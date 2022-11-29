@@ -52,3 +52,7 @@ umountusb () {
 sudo umount /media/usb
 }
 
+#cooking recipes
+getrecipe () {
+find . | cat $(grep "$1.md") | less
+}
