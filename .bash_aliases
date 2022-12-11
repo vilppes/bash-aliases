@@ -1,5 +1,6 @@
 alias cls='clear'
-alias sbattery='acpi -V'
+alias sbattery='acpi -V | grep "%,"'
+alias vim='nvim'
 
 #get some google results
 google () {
