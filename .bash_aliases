@@ -57,3 +57,5 @@ sudo umount /media/usb
 getrecipe () {
 find . | cat $(grep "$1.md") | less
 }
+
+tmux new -s pessin-sekoilua
